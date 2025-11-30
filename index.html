@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/icon.ico" type="image/x-icon" />
+  <title>PixelNest Studio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1a1a1a;
+      scroll-behavior: smooth;
+      background: linear-gradient(135deg, #141e30, #243b55);
+    }
+
+    .navbar {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      transition: background 0.3s ease;
+    }
+
+    .highlight-color {
+      background-color: #A8D5E3;
+    }
+
+    .text-color {
+      color: #A8D5E3;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/icon.png" class="img-fluid" style="height: 50px;" alt="PixelNest">
+          PixelNest Studio
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a href="#home" class="nav-link fw-bold">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link fw-bold">About</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link fw-bold">Services</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link fw-bold">Portfolio</a></li>
+            <li class="nav-item"><a href="#testimonials" class="nav-link fw-bold">Testimonial</a></li>
+            <li class="nav-item"><a href="#pricing" class="nav-link fw-bold">Pricing</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link fw-bold">Contact</a></li>
+            <li class="nav-item ms-lg-3">
+              <a href="#" class="btn rounded-pill highlight-color">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <!-- Hero Section  -->
+    <section class="hero d-flex align-items-center pt-5 my-5" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <!-- LEFT CONTENT -->
+          <div class="col-md-6 text-white">
+            <h1 class="hero-title">
+              We Build <span>Digital Experiences</span>
+              That Actually Convert.
+            </h1>
+
+            <p class="hero-subtitle">
+              PixelNest Studio is a creative digital agency delivering
+              <b>Web Design, SEO, PPC & Content Writing</b> that grows brands fast.
+            </p>
+
+            <div class="mt-4">
+              <a href="#" class="btn highlight-color fw-bold me-3">Get Started</a>
+            </div>
+          </div>
+
+          <!-- RIGHT IMAGE + SERVICES ORBIT -->
+          <div class="col-md-6 position-relative text-center mt-5 mt-md-0">
+
+            <!-- MAIN COMPANY IMAGE -->
+            <img src="img/icon.png" class="main-img" alt="PixelNest Studio">
+
+            <!-- FLOATING SERVICE ICONS -->
+            <!-- FLOATING SERVICE BADGES -->
+            <div class="orbit-badge border border-2 border-dark web">
+              <img src="img/wd.png" alt="Web Design">
+              <span class="text-white">Web Design</span>
+            </div>
+
+            <div class="orbit-badge border border-2 border-dark seo">
+              <img src="img/seo.png" alt="SEO">
+              <span class="text-white">SEO</span>
+            </div>
+
+            <div class="orbit-badge border border-2 border-dark ppc">
+              <img src="img/ppc.png" alt="PPC">
+              <span class="text-white">Pay Per Click</span>
+            </div>
+
+            <div class="orbit-badge border border-2 border-dark content">
+              <img src="img/cw.png" alt="Content Writing">
+              <span class="text-white">Content Writing</span>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section  -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <!-- LEFT IMAGE -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="about-img-box">
+              <img src="img/team-illustration.svg" class="img-fluid" alt="About PixelNest Studio">
+            </div>
+          </div>
+
+          <!-- RIGHT CONTENT -->
+          <div class="col-md-6 text-white">
+            <h6 class="section-tag">ABOUT US</h6>
+            <h2 class="about-title">
+              We’re a Digital-First Creative Agency
+              Building Brands That <span>Actually Grow</span>
+            </h2>
+
+            <p class="about-text mt-3">
+              PixelNest Studio is a modern digital agency focused on building
+              powerful brand identities through <b>Web Design, SEO, PPC, and Content Writing</b>.
+              We don’t chase trends — we build systems that convert traffic into loyal customers.
+            </p>
+
+            <div class="row mt-4">
+
+              <div class="col-6">
+                <div class="about-counter">
+                  <h3>50+</h3>
+                  <p>Projects Delivered</p>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="about-counter">
+                  <h3>3+</h3>
+                  <p>Years Experience</p>
+                </div>
+              </div>
+
+            </div>
+
+            <a href="#" class="btn highlight-color fw-bold me-3">Know More</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Section  -->
+    <section class="services-section" id="services">
+      <div class="container text-center text-white">
+
+        <h6 class="section-tag">OUR SERVICES</h6>
+        <h2 class="services-title">
+          Digital Solutions That <span>Power Growth</span>
+        </h2>
+
+        <div class="row mt-5">
+
+          <!-- CARD 1 -->
+          <div class="col-md-3 mb-4">
+            <div class="service-card">
+              <img src="img/wd.png" alt="Web Design">
+              <h5>Web Design</h5>
+              <p>Modern, responsive, and high-converting websites that look stunning on every device.</p>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="col-md-3 mb-4">
+            <div class="service-card">
+              <img src="img/seo.png" alt="SEO">
+              <h5>SEO Optimization</h5>
+              <p>Rank higher, get discovered faster, and dominate search results with smart SEO.</p>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="col-md-3 mb-4">
+            <div class="service-card">
+              <img src="img/ppc.png" alt="PPC">
+              <h5>PPC Advertising</h5>
+              <p>Laser-targeted paid campaigns that turn clicks into real, paying customers.</p>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="col-md-3 mb-4">
+            <div class="service-card">
+              <img src="img/cw.png" alt="Content Writing">
+              <h5>Content Writing</h5>
+              <p>High-impact content that builds trust, drives traffic, and converts readers.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section  -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container text-center text-white">
+
+        <h6 class="section-tag">OUR WORK</h6>
+        <h2 class="portfolio-title">
+          Real Projects. <span>Real Results.</span>
+        </h2>
+
+        <div class="row mt-5">
+
+          <!-- PROJECT 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="portfolio-card">
+              <img src="img/project1.png" alt="Web Project">
+              <div class="portfolio-overlay">
+                <h5>Business Website</h5>
+                <p>UI/UX + Development</p>
+                <a href="#" class="btn rounded-pill highlight-color">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="portfolio-card">
+              <img src="img/project2.png" alt="SEO Project">
+              <div class="portfolio-overlay">
+                <h5>SEO Growth Campaign</h5>
+                <p>Google Ranking + Traffic</p>
+                <a href="#" class="btn rounded-pill highlight-color">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="portfolio-card">
+              <img src="img/project3.png" alt="Marketing Project">
+              <div class="portfolio-overlay">
+                <h5>Paid Ads Funnel</h5>
+                <p>PPC + Lead Generation</p>
+                <a href="#" class="btn rounded-pill highlight-color">View Project</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Testimonial Section  -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container text-center text-white">
+
+        <h6 class="section-tag">TESTIMONIALS</h6>
+        <h2 class="testimonials-title">
+          What Our <span>Clients Say</span>
+        </h2>
+
+        <div class="row mt-5">
+
+          <!-- TESTIMONIAL 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <img src="img/Client1.png" alt="Client">
+              <p>
+                “PixelNest Studio completely transformed our website.
+                Our leads doubled within 30 days!”
+              </p>
+              <h5>Rohit Sharma</h5>
+              <span>Startup Founder</span>
+            </div>
+          </div>
+
+          <!-- TESTIMONIAL 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <img src="img/Client2.png" alt="Client">
+              <p>
+                “Their SEO strategy pushed our site to Google’s first page.
+                Traffic is insane now!”
+              </p>
+              <h5>Pooja Verma</h5>
+              <span>Marketing Head</span>
+            </div>
+          </div>
+
+          <!-- TESTIMONIAL 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <img src="img/client3.png" alt="Client">
+              <p>
+                “We invested in PPC with PixelNest and got 3x ROI in under 45 days.”
+              </p>
+              <h5>Aman Kapoor</h5>
+              <span>Business Owner</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Pricing Section  -->
+    <section class="pricing-section" id="pricing">
+      <div class="container text-center text-white">
+
+        <h6 class="section-tag">PRICING PLANS</h6>
+        <h2 class="pricing-title">
+          Choose The <span>Perfect Plan</span>
+        </h2>
+
+        <div class="row mt-5">
+
+          <!-- BASIC PLAN -->
+          <div class="col-md-4 mb-4">
+            <div class="pricing-card">
+              <h5>Starter</h5>
+              <h2>₹4,999</h2>
+              <p class="plan-tag">Best for Individuals</p>
+              <ul>
+                <li>1 Landing Page</li>
+                <li>Basic SEO</li>
+                <li>Email Support</li>
+                <li>7 Days Delivery</li>
+              </ul>
+              <a href="#" class="btn rounded-pill highlight-color">Get Started</a>
+            </div>
+          </div>
+
+          <!-- POPULAR PLAN -->
+          <div class="col-md-4 mb-4">
+            <div class="pricing-card popular-plan">
+              <span class="popular-badge">Most Popular</span>
+              <h5>Growth</h5>
+              <h2>₹12,999</h2>
+              <p class="plan-tag">Best for Startups</p>
+              <ul>
+                <li>5 Pages Website</li>
+                <li>Advanced SEO</li>
+                <li>PPC Starter Setup</li>
+                <li>WhatsApp Support</li>
+                <li>15 Days Delivery</li>
+              </ul>
+              <a href="#" class="btn rounded-pill highlight-color">Choose Plan</a>
+            </div>
+          </div>
+
+          <!-- PREMIUM PLAN -->
+          <div class="col-md-4 mb-4">
+            <div class="pricing-card">
+              <h5>Enterprise</h5>
+              <h2>₹24,999</h2>
+              <p class="plan-tag">Best for Businesses</p>
+              <ul>
+                <li>10+ Pages Website</li>
+                <li>Full SEO Setup</li>
+                <li>PPC + Analytics</li>
+                <li>Dedicated Manager</li>
+                <li>30 Days Delivery</li>
+              </ul>
+              <a href="#" class="btn rounded-pill highlight-color">Contact Sales</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact/Lead form  -->
+    <section class="contact-section" id="contact">
+      <div class="container text-white">
+        <div class="row align-items-center">
+
+          <!-- LEFT CONTENT -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h6 class="section-tag">LET'S TALK</h6>
+            <h2 class="contact-title">
+              Have a Project?
+              Let’s Build Something <span>Amazing</span>
+            </h2>
+
+            <p class="contact-text mt-3">
+              Whether you need a website, SEO growth, paid ads, or content —
+              PixelNest Studio is ready to scale your brand digitally.
+            </p>
+
+            <div class="contact-info mt-4">
+              <p><i class="fas fa-envelope"></i> hello@pixelneststudio.com</p>
+              <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+              <p><i class="fas fa-map-marker-alt"></i> India</p>
+            </div>
+          </div>
+
+          <!-- RIGHT FORM -->
+          <div class="col-md-6">
+            <div class="contact-form-box">
+              <form>
+
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="mb-3">
+                  <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+
+                <div class="mb-3">
+                  <input type="tel" class="form-control" placeholder="Your Phone">
+                </div>
+
+                <div class="mb-3">
+                  <select class="form-control">
+                    <option>Select Service</option>
+                    <option>Web Design</option>
+                    <option>SEO</option>
+                    <option>PPC Advertising</option>
+                    <option>Content Writing</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <textarea class="form-control" rows="4" placeholder="Tell us about your project"></textarea>
+                </div>
+
+                <button type="submit" class="btn rounded-pill highlight-color fw-bold w-100">
+                  Send Message
+                </button>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section  -->
+    <section class="cta-section text-center py-5 position-relative overflow-hidden">
+      <div class="cta-bg"></div>
+      <div class="cta-particles"></div>
+
+      <div class="container position-relative" data-aos="zoom-in">
+        <h1 class="text-light fw-bold mb-2">Ready to Transform?</h1>
+
+        <div class="d-flex justify-content-center gap-3">
+          <a href="#" class="btn rounded-pill highlight-color fw-bold cta-ripple">
+            Get Started <i class="fa-solid fa-arrow-right ms-2"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Sticky CTA -->
+    <div class="sticky-cta highlight-color  shadow-lg" id="stickyCta" aria-hidden="true">
+      <div class="container d-flex flex-wrap align-items-center justify-content-between gap-2 py-2">
+        <span class="text-dark fw-semibold">Supercharge your Business with PixelNest Studio</span>
+        <div class="d-flex gap-2">
+          <a href="#" class="btn rounded-pill fw-bold cta-ripple" style="background-color: #00f5ff;">
+            Get Started <i class="fa-solid fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll-to-top chip -->
+    <button class="to-top" id="toTop" aria-label="Scroll to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="container text-white">
+        <div class="row">
+
+          <!-- BRAND INFO -->
+          <div class="col-md-4 mb-4">
+            <h3 class="footer-logo">PixelNest Studio</h3>
+            <p class="footer-text">
+              We craft high-performance websites, SEO strategies, PPC ads,
+              and content that actually converts visitors into customers.
+            </p>
+
+            <div class="footer-social mt-3">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <!-- QUICK LINKS -->
+          <div class="col-md-2 mb-4">
+            <h5 class="footer-title">Quick Links</h5>
+            <ul class="footer-links">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- SERVICES -->
+          <div class="col-md-3 mb-4">
+            <h5 class="footer-title">Our Services</h5>
+            <ul class="footer-links">
+              <li>Web Design</li>
+              <li>SEO Optimization</li>
+              <li>PPC Advertising</li>
+              <li>Content Writing</li>
+              <li>Brand Strategy</li>
+            </ul>
+          </div>
+
+          <!-- CONTACT INFO -->
+          <div class="col-md-3 mb-4">
+            <h5 class="footer-title">Contact Info</h5>
+            <p><i class="fas fa-envelope"></i> hello@pixelneststudio.com</p>
+            <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+            <p><i class="fas fa-map-marker-alt"></i> India</p>
+          </div>
+
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom text-center mt-4">
+          <p>© 2025 PixelNest Studio. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/mdb.umd.min.js"></script>
+
+  <!-- CTA Section Script -->
+  <script>
+
+    document.querySelectorAll('.cta-ripple').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.classList.remove('rippling');
+        void btn.offsetWidth; // reflow
+        btn.classList.add('rippling');
+        setTimeout(() => btn.classList.remove('rippling'), 450);
+      });
+    });
+
+    const sticky = document.getElementById('stickyCta');
+    const toTop = document.getElementById('toTop');
+    const ctaSection = document.querySelector('.cta-section');
+
+    function showSticky(flag) {
+      if (!sticky) return;
+      sticky.classList.toggle('visible', flag);
+      sticky.setAttribute('aria-hidden', flag ? 'false' : 'true');
+    }
+
+    function showToTop(flag) {
+      if (!toTop) return;
+      toTop.classList.toggle('visible', flag);
+    }
+
+    if ('IntersectionObserver' in window && ctaSection) {
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          const isVisible = e.isIntersecting && e.intersectionRatio > 0.2;
+          showSticky(!isVisible);
+          showToTop(!isVisible);
+        });
+      }, {
+        threshold: [0, .2, 1]
+      });
+      io.observe(ctaSection);
+    } else {
+      window.addEventListener('scroll', () => {
+        const trigger = 300;
+        const scrolled = window.scrollY > trigger;
+        showSticky(scrolled);
+        showToTop(scrolled);
+      });
+    }
+
+    if (toTop) {
+      toTop.addEventListener('click', () => window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      }));
+    }
+  </script>
+
+</body>
+
+</html>
